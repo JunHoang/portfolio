@@ -4,6 +4,8 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 body {
@@ -11,6 +13,11 @@ body {
 }
 
 /***NAVBAR***/
+
+nav {
+  z-index: 2;
+}
+
 .logo {
   height: 100px;
   width: 260px;
@@ -41,6 +48,12 @@ nav ul li {
   height: 96px !important;
 }
 
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 112px;
+  }
+}
+
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
   border-top: 3px solid var(--primary-orange);
@@ -48,4 +61,68 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 3px solid var(--primary-orange);
+}
+
+/***************HEADER*****************/
+
+.header-wraper {
+  position: relative;
+  background: url(wallpaper1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  z-index: 1;
+}
+
+.main-info h1 {
+  font-weight: 800;
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+/**********TYPED TEXT***********/
+.typed-text {
+  font-weight: 800;
+  font-size: 32px;
+  color: var(--primary-white);
+}
+
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 28px !important;
+  }
+
+  .typed-text {
+    font-size: 24px !important;
+  }
+}
+
+/*********** PARTICLES *************/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+@media (max-width: 760px) {
+  .particles-canvas {
+    display: none;
+  }
 }
