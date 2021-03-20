@@ -3,9 +3,10 @@
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
-  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-light-grey: #f4f4f4;
 }
 
 body {
@@ -157,4 +158,54 @@ nav ul li {
   .profile-img {
     width: 180px;
   }
+}
+
+/********************SKILLS*******************/
+.skills {
+  text-align: center;
+  padding-bottom: 32px;
+  background: var(--primary-light-grey);
+}
+
+.skills h1 {
+  color: var(--primary-dark);
+  text-transform: uppercase;
+}
+
+.skills .circle {
+  position: relative;
+  margin: 6px auto;
+  background: var(--primary-orange);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.skills .icon {
+  font-size: 22.4px;
+  color: var(--primary-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skills .box {
+  height: 256px;
+  border-bottom: 5px solid var(--primary-orange);
+  padding: 10px;
+  margin-bottom: 30px;
+  background: var(--primary-white);
+}
+
+.skills .box:hover {
+  background: var(--primary-orange);
+  border-bottom: 5px solid var(--primary-dark);
+}
+
+.skills .box:hover .icon {
+  color: var(--primary-dark);
+}
+.skills .box:hover .circle {
+  background: var(--primary-white);
 }
