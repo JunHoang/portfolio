@@ -257,7 +257,7 @@ nav ul li {
 
 .timeline-block-left {
   float: left;
-  direction: rtl !important;
+  direction: rtl;
 }
 
 .marker {
