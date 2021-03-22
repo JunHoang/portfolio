@@ -305,3 +305,19 @@ nav ul li {
     direction: ltr;
   }
 }
+
+/****************** PROJECTS **********************/
+.projects-wrapper {
+  background: var(--primary-light-grey);
+  padding: 48px 0;
+}
+
+.projects-image {
+  width: 348px;
+  border: 1px solid var(--primary-orange);
+}
+
+.projects-image-box {
+  position: relative;
+  margin: 16px;
+}
