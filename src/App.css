@@ -355,3 +355,54 @@ nav ul li {
   transform: scale(2);
   cursor: pointer;
 }
+
+/******************** POPUP BOX ***********************/
+.project-image-popupbox {
+  width: 960px;
+  padding: 0 8px;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange);
+}
+
+.hyper-link:hover {
+  cursor: pointer;
+  color: var(--primary-salmon);
+}
+
+@media (max-width: 768px) {
+  .project-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media (max-height: 780px) {
+  .popupbox-wrapper {
+    height: 90%;
+    width: 50%;
+  }
+  .project-image-popupbox {
+    width: 100%;
+  }
+}
+
+@media (max-height: 570px) {
+  .popupbox-wrapper {
+    height: 95%;
+    width: 80%;
+  }
+  .project-image-popupbox {
+    width: 50%;
+  }
+}
+
+@media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .project-image-popupbox {
+    width: 30%;
+  }
+}
