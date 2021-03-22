@@ -4,6 +4,7 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgb(52, 58, 64);
+  --primary-black: #000000;
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-light-grey: #f4f4f4;
@@ -320,4 +321,37 @@ nav ul li {
 .projects-image-box {
   position: relative;
   margin: 16px;
+}
+
+/***************** OVERFLOW BOX *******************/
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 348px;
+  height: 218px;
+  top: 0;
+  border: 1px solid var(--primary-salmon);
+  cursor: pointer;
+}
+
+.projects-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.projects-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -174px;
+  margin-top: 109px;
+  color: var(--primary-orange);
+  transition: transform 0.7s;
+  font-size: 24px;
+}
+
+.projects-image-box:hover .projects-icon {
+  opacity: 90%;
+  transform: scale(2);
+  cursor: pointer;
 }
