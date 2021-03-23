@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
+import Particles from "react-particles-js";
 
 const Contacts = () => {
   const [successMessage, setSuccessMessage] = useState("");
@@ -39,10 +40,8 @@ const Contacts = () => {
 
   if (successMessage) {
     return (
-      <div className="contacts">
-        <div className="success-message text-center">
-          <h1>{successMessage}</h1>
-        </div>
+      <div className="success-message">
+        <h1>{successMessage}</h1>
       </div>
     );
   } else {
