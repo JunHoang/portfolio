@@ -23,7 +23,7 @@ export default function TestimonialsCarousel() {
           <p>
             Long time ago, people who sacrified their sleep, family, food,
             laughter and other luxuries of life were called SAINTS. Now, they
-            are calles PROGRAMMERS.
+            are called PROGRAMMERS.
           </p>
         </div>
       </div>
