@@ -487,3 +487,85 @@ nav ul li {
     height: 480px;
   }
 }
+
+/**************** CONTACTS ME ********************/
+.contacts {
+  background: var(--primary-dark);
+  padding: 48px 0;
+}
+
+.contacts h1 {
+  color: var(--primary-orange);
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-light-grey);
+  font-size: 20px;
+}
+
+/************** INPUTS ******************/
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid var(--primary-dark-grey);
+  border-radius: 0;
+  color: var(--primary-orange);
+  outline: 0 !important;
+  box-shadow: none im !important;
+  margin-bottom: 16px;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 64px 0;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-orange);
+  border-bottom: 2px solid var(--primary-dark-grey);
+}
+
+.contacts textarea {
+  height: 195px !important;
+}
+.line {
+  position: relative;
+  top: -12.8px;
+  width: 0;
+  height: 2px;
+  background: var(--primary-orange);
+  display: inline-block;
+}
+
+input.form-control,
+textarea.form-control {
+  margin: -4.8px 0;
+}
+
+input:focus + .line,
+textarea:focus + .line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 0 16px;
+  }
+
+  .contacts p {
+    padding: 0 16px;
+  }
+}
