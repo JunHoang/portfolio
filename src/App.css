@@ -475,3 +475,15 @@ nav ul li {
   margin: auto !important;
   margin-top: 3% !important;
 }
+
+@media (max-width: 530px) {
+  .myCarousel {
+    height: 400px;
+  }
+}
+
+@media (max-width: 320px) {
+  .myCarousel {
+    height: 480px;
+  }
+}
