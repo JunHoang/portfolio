@@ -556,6 +556,12 @@ textarea:focus + .line {
   transition: width 0.5s ease-in-out;
 }
 
+.error-message {
+  color: var(--primary-red);
+  margin-top: -18px;
+  margin-bottom: 12px;
+}
+
 @media (max-width: 768px) {
   .contacts {
     overflow-x: hidden;
@@ -568,4 +574,10 @@ textarea:focus + .line {
   .contacts p {
     padding: 0 16px;
   }
+}
+
+/************** SUCCESS MESSAGE *******************/
+.success-message {
+  padding: 64px 0;
+  transition: 0.7s ease-out;
 }
