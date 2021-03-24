@@ -1,11 +1,18 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedinIn,
+  faGithub,
+  faFacebookF,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
     <div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-6">
+          <div className="col-lg-4 col-md-5 col-sm-12 justify-content-center">
             <div className="d-flex">
               <p>Martinlaksoo, 01620, Vantaa</p>
             </div>
@@ -16,23 +23,61 @@ export default function Footer() {
               <a href="mailto:kathymaidung@gmail.com">kathymaidung@gmail.com</a>
             </div>
           </div>
-          <div className="col-lg-3 col-md-2 col-sm-6">
-            <div className="row">
-              <div className="col">
-                <a className="footer-nav">Home</a>
-                <br />
-                <a className="footer-nav">About me</a>
-                <br />
-                <a className="footer-nav">Service</a>
-              </div>
-              <div className="col">
-                <a className="footer-nav">Experience</a>
-                <br />
-                <a className="footer-nav">Projects</a>
-                <br />
-                <a className="footer-nav">Contacts</a>
-              </div>
+          <div className="col-lg-3 col-md-2 col-sm-12">
+            <div className="d-flex py-3">
+              <p>Contact via my Social Media Network!</p>
             </div>
+          </div>
+          <div className="col-lg-5 col-md-5 col-sm-12 align-items-center">
+            <div className="d-flex justify-content-center">
+              <a
+                className="pr-2"
+                href="https://www.linkedin.com/in/dunghoang9498/"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className="icon-footer"
+                  icon={faLinkedinIn}
+                  size="3x"
+                />
+              </a>
+              <a
+                className="px-2"
+                href="https://github.com/JunHoang"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className="icon-footer"
+                  icon={faGithub}
+                  size="3x"
+                />
+              </a>
+              <a
+                className="px-2"
+                href="https://www.facebook.com/DungDung.9498/"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className="icon-footer"
+                  icon={faFacebookF}
+                  size="3x"
+                />
+              </a>
+              <a
+                className="px-2"
+                href="https://www.instagram.com/hnmd_9498/"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className="icon-footer"
+                  icon={faInstagram}
+                  size="3x"
+                />
+              </a>
+            </div>
+            <p className="pt-3 text-center">
+              Copyright&copy;{new Date().getFullYear()}&nbsp;- Dung Hoang
+            </p>
           </div>
         </div>
       </div>
