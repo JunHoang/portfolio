@@ -672,3 +672,25 @@ textarea:focus + .line {
     color: #fff6a9;
   }
 }
+
+/**************** FOOTER *********************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-light-grey);
+  padding: 48px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-light-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin: 0;
+}
