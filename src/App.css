@@ -62,7 +62,7 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active,
-.navbar-nav > li > a.active:focus {
+.navbar-nav > li > a:focus {
   border-top: 3px solid var(--primary-orange);
 }
 
@@ -508,7 +508,7 @@ nav ul li {
 
 .contacts p {
   color: var(--primary-light-grey);
-  font-size: 20px;
+  font-size: 22px;
 }
 
 /************** INPUTS ******************/
