@@ -3,7 +3,7 @@ import Typed from "react-typed";
 
 export default function Header() {
   return (
-    <div className="dark-overlay">
+    <div id="home" className="dark-overlay">
       <div className="header-wraper">
         <div className="main-info">
           <h1>web development and website promotions</h1>

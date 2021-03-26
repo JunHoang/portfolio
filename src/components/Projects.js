@@ -142,7 +142,7 @@ function Projects() {
   };
 
   return (
-    <div className="projects-wrapper">
+    <div id="projects" className="projects-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">Projects</h1>
         <div className="image-box-wrapper row justify-content-center">

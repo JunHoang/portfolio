@@ -79,7 +79,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -139,6 +139,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   margin-bottom: 25px;
+  padding-top: 48px;
 }
 
 .profile-img {
@@ -152,6 +153,7 @@ nav ul li {
 .about-heading {
   color: var(--primary-orange);
   text-transform: uppercase;
+  padding-top: 48px;
 }
 
 @media (max-width: 768px) {
@@ -169,7 +171,8 @@ nav ul li {
 /********************SKILLS*******************/
 .skills {
   text-align: center;
-  padding-bottom: 32px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   background: var(--primary-light-grey);
 }
 
@@ -220,7 +223,7 @@ nav ul li {
 /*************** EXPERIENCE *******************/
 
 .experience {
-  padding: 11.2px;
+  padding: 48px;
 }
 
 .experience-wrapper {
@@ -416,14 +419,15 @@ nav ul li {
   background-size: cover;
   background-color: var(--primary-dark);
   text-align: center;
-  padding-bottom: 160px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   margin-bottom: 0;
   width: 100%;
 }
 
 .testimonials h1 {
   color: var(--primary-orange);
-  padding: 48px 0;
+  padding: 32px 0;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -493,6 +497,7 @@ nav ul li {
 .contacts {
   background: var(--primary-dark);
   padding: 48px 0;
+  height: 75vh;
 }
 
 .contacts h1 {
@@ -579,24 +584,6 @@ textarea:focus + .line {
 
 /************** SUCCESS MESSAGE *******************/
 
-/* .success-message {
-  padding-top: 6%;
-  padding-bottom: 6%;
-  padding-left: 5%;
-  padding-right: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #222;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 7px,
-    rgba(0, 0, 0, 0.8) 9px,
-    rgba(0, 0, 0, 0.8) 13px,
-    transparent 13px
-  );
-} */
-
 .success-message {
   display: flex;
   justify-content: center;
@@ -606,7 +593,7 @@ textarea:focus + .line {
   padding-left: 5%;
   padding-right: 5%;
   background: var(--primary-black);
-  transition: 0.7s linear;
+  transition: 0.7s ease-out;
 }
 
 .success-message h1 {
