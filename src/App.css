@@ -351,13 +351,14 @@ nav ul li {
   margin-left: -174px;
   margin-top: 109px;
   color: var(--primary-orange);
-  transition: transform 0.7s;
+  /* transition: transform 0.7s; */
+  transition: 0.3s ease-in-out;
   font-size: 24px;
 }
 
 .projects-image-box:hover .projects-icon {
   opacity: 90%;
-  transform: scale(2);
+  /* transform: scale(2); */
   cursor: pointer;
 }
 
