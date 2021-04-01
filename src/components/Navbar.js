@@ -29,7 +29,7 @@ function Navbar() {
               <Link
                 smooth={true}
                 to="home"
-                offset={-110}
+                offset={-80}
                 className="nav-link"
                 href="#"
               >
@@ -40,7 +40,7 @@ function Navbar() {
               <Link
                 smooth={true}
                 to="about"
-                offset={-110}
+                offset={-80}
                 className="nav-link"
                 href="home"
               >
@@ -51,7 +51,7 @@ function Navbar() {
               <Link
                 smooth={true}
                 to="skills"
-                offset={-110}
+                offset={-80}
                 className="nav-link"
                 href="skills"
               >
@@ -62,7 +62,7 @@ function Navbar() {
               <Link
                 smooth={true}
                 to="experience"
-                offset={-110}
+                offset={-80}
                 className="nav-link"
                 href="experince"
               >
@@ -73,7 +73,7 @@ function Navbar() {
               <Link
                 smooth={true}
                 to="projects"
-                offset={-110}
+                offset={-80}
                 className="nav-link"
                 href="projects"
               >
@@ -84,7 +84,7 @@ function Navbar() {
               <Link
                 smooth={true}
                 to="contacts"
-                offset={-110}
+                offset={-80}
                 className="nav-link"
                 href="contacts"
               >

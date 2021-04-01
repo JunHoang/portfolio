@@ -22,7 +22,7 @@ export default function Header() {
             <Link
               smooth={true}
               to="contacts"
-              offset={-110}
+              offset={-80}
               className="nav-link text-white"
               href="contacts"
             >

@@ -105,9 +105,9 @@ function Projects() {
           alt="Photo Gallery Projects..."
         />
         <p className="pl-2 pt-3">
-          Unsplash-Photo-Gallery website shows the images and predicts what is
-          in that picture by using a machine learning platform called
-          Tensorflow. <br />
+          Unsplash-Photo-Gallery shows the images and predicts what is in that
+          picture by using a machine learning platform called Tensorflow.
+          <br />
           Additionally, Firebase is also used in the website for registering and
           authentication.
         </p>

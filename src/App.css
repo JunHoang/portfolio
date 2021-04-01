@@ -26,8 +26,8 @@ nav {
 }
 
 .logo {
-  height: 100px;
-  width: 260px;
+  height: 55px;
+  width: 180px;
 }
 
 /**** MENU LINKS ****/
@@ -419,11 +419,11 @@ nav ul li {
 
 @media (max-height: 780px) {
   .popupbox-wrapper {
-    height: 80%;
-    width: 50%;
+    height: 75%;
+    width: 60%;
   }
   .project-image-popupbox {
-    width: 100%;
+    width: 65%;
   }
 }
 
