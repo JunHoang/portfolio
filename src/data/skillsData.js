@@ -2,6 +2,7 @@ import I_HTML from "../images/skills/html-icon.jpg";
 import I_CSS3 from "../images/skills/css-icon.png";
 import I_BOOTSTRAP from "../images/skills/bootstrap-icon.png";
 import I_JAVASCRIPT from "../images/skills/javascript-icon.jpg";
+import I_TYPESCRIPT from "../images/skills/typescript-icon.png";
 import I_REACT from "../images/skills/reactjs-icon.png";
 import I_REACT_BOOTSTRAP from "../images/skills/react-bootstrap-icon.jpg";
 import I_REACT_ROUTER from "../images/skills/react-router.png";
@@ -37,43 +38,49 @@ export const skills = [
         name: "CSS",
       },
       {
-        link: "",
+        link: "https://getbootstrap.com/docs/4.6/getting-started/introduction/",
         imgAltText: "Bootstrap",
         imgSrc: I_BOOTSTRAP,
         name: "Bootstrap",
       },
       {
-        link: "",
-        imgAltText: "Javascript",
+        link: "https://javascript.info/",
+        imgAltText: "JavaScript",
         imgSrc: I_JAVASCRIPT,
-        name: "Javascript",
+        name: "JavaScript",
       },
       {
-        link: "",
-        imgAltText: "React",
+        link: "https://www.typescriptlang.org/",
+        imgAltText: "TypeScript",
+        imgSrc: I_TYPESCRIPT,
+        name: "TypeScript",
+      },
+      {
+        link: "https://reactjs.org/",
+        imgAltText: "Reactjs",
         imgSrc: I_REACT,
         name: "React JS",
       },
       {
-        link: "",
+        link: "https://react-bootstrap.github.io/",
         imgAltText: "React Bootstrap",
         imgSrc: I_REACT_BOOTSTRAP,
         name: "React Bootstrap",
       },
       {
-        link: "",
+        link: "https://reactrouter.com/",
         imgAltText: "React Router",
         imgSrc: I_REACT_ROUTER,
         name: "React Router",
       },
       {
-        link: "",
+        link: "https://redux.js.org/",
         imgAltText: "Redux",
         imgSrc: I_REDUX,
         name: "Redux",
       },
       {
-        link: "",
+        link: "https://sass-lang.com/",
         imgAltText: "Sass",
         imgSrc: I_SASS,
         name: "Sass",
@@ -84,19 +91,19 @@ export const skills = [
     title: "Back-End",
     tech: [
       {
-        link: "",
+        link: "https://nodejs.org/en/",
         imgAltText: "Nodejs",
         imgSrc: I_NODEJS,
         name: "Node JS",
       },
       {
-        link: "",
+        link: "https://en.wikipedia.org/wiki/Express.js",
         imgAltText: "Express",
         imgSrc: I_EXPRESS,
         name: "Express",
       },
       {
-        link: "",
+        link: "https://www.tutorialspoint.com/nodejs/nodejs_restful_api.htm",
         imgAltText: "RestAPI",
         imgSrc: I_RESTAPI,
         name: "RestAPI",
@@ -107,19 +114,19 @@ export const skills = [
     title: "Hosting Platforms",
     tech: [
       {
-        link: "",
+        link: "https://www.netlify.com/",
         imgAltText: "Netlify",
         imgSrc: I_NETLIFY,
         name: "Netlify",
       },
       {
-        link: "",
+        link: "https://heroku.com/",
         imgAltText: "Heroku",
         imgSrc: I_HEROKU,
         name: "Heroku",
       },
       {
-        link: "",
+        link: "https://pages.github.com/",
         imgAltText: "Github Pages",
         imgSrc: I_GITHUB_PAGES,
         name: "GitHub Pages",
@@ -130,19 +137,19 @@ export const skills = [
     title: "Database",
     tech: [
       {
-        link: "",
+        link: "https://www.mongodb.com/",
         imgAltText: "MongoDB",
         imgSrc: I_MONGODB,
         name: "MongoDB",
       },
       {
-        link: "",
+        link: "https://www.w3schools.com/sql/",
         imgAltText: "SQL",
         imgSrc: I_SQL,
         name: "SQL",
       },
       {
-        link: "",
+        link: "https://firebase.google.com/",
         imgAltText: "Firebase",
         imgSrc: I_FIREBASE,
         name: "Firebase",
@@ -153,7 +160,7 @@ export const skills = [
     title: "Version Control",
     tech: [
       {
-        link: "",
+        link: "https://git-scm.com/",
         imgAltText: "Git",
         imgSrc: I_GIT,
         name: "Git",
@@ -164,13 +171,13 @@ export const skills = [
     title: "Package Manager",
     tech: [
       {
-        link: "",
+        link: "https://www.npmjs.com/",
         imgAltText: "Npm",
         imgSrc: I_NPM,
         name: "NPM",
       },
       {
-        link: "",
+        link: "https://yarnpkg.com/",
         imgAltText: "Yarn",
         imgSrc: I_YARN,
         name: "Yarn",
