@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 
 export default function Header() {
   return (
@@ -18,7 +19,15 @@ export default function Header() {
           Contact me
         </a> */}
           <button className="btn btn-outline-danger text-uppercase text-white mt-3 font-weight-bold">
-            contact me
+            <Link
+              smooth={true}
+              to="contacts"
+              offset={-110}
+              className="nav-link text-white"
+              href="contacts"
+            >
+              contact me
+            </Link>
           </button>
         </div>
       </div>

@@ -414,7 +414,7 @@ nav ul li {
 
 @media (max-height: 780px) {
   .popupbox-wrapper {
-    height: 95%;
+    height: 80%;
     width: 50%;
   }
   .project-image-popupbox {
