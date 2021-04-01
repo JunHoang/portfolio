@@ -228,6 +228,11 @@ nav ul li {
   transform: scale(1.05);
 }
 
+.skills .item:hover {
+  font-weight: 700;
+  transform: scale(1.02);
+}
+
 .skills .card-title {
   font-size: 32px;
   font-weight: 700;

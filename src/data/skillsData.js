@@ -138,23 +138,6 @@ export const skills = [
     ],
   },
   {
-    title: "Package Manager",
-    tech: [
-      {
-        link: "https://www.npmjs.com/",
-        imgAltText: "Npm",
-        imgSrc: I_NPM,
-        name: "NPM",
-      },
-      {
-        link: "https://yarnpkg.com/",
-        imgAltText: "Yarn",
-        imgSrc: I_YARN,
-        name: "Yarn",
-      },
-    ],
-  },
-  {
     title: "Database",
     tech: [
       {
@@ -174,6 +157,23 @@ export const skills = [
         imgAltText: "Firebase",
         imgSrc: I_FIREBASE,
         name: "Firebase",
+      },
+    ],
+  },
+  {
+    title: "Package Manager",
+    tech: [
+      {
+        link: "https://www.npmjs.com/",
+        imgAltText: "Npm",
+        imgSrc: I_NPM,
+        name: "NPM",
+      },
+      {
+        link: "https://yarnpkg.com/",
+        imgAltText: "Yarn",
+        imgSrc: I_YARN,
+        name: "Yarn",
       },
     ],
   },
