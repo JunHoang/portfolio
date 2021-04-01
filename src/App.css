@@ -229,8 +229,8 @@ nav ul li {
 }
 
 .skills .item:hover {
+  font-size: 20px;
   font-weight: 700;
-  transform: scale(1.02);
 }
 
 .skills .card-title {
