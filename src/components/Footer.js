@@ -34,6 +34,7 @@ export default function Footer() {
                 className="pr-2"
                 href="https://www.linkedin.com/in/dunghoang9498/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <FontAwesomeIcon
                   className="icon-footer"
@@ -45,6 +46,7 @@ export default function Footer() {
                 className="px-2"
                 href="https://github.com/JunHoang"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <FontAwesomeIcon
                   className="icon-footer"
@@ -56,6 +58,7 @@ export default function Footer() {
                 className="px-2"
                 href="https://www.facebook.com/DungDung.9498/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <FontAwesomeIcon
                   className="icon-footer"
@@ -67,6 +70,7 @@ export default function Footer() {
                 className="px-2"
                 href="https://www.instagram.com/hnmd_9498/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <FontAwesomeIcon
                   className="icon-footer"

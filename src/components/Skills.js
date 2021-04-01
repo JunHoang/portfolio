@@ -2,10 +2,7 @@ import React from "react";
 import { skills } from "../data/skillsData";
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardColumns";
-import CardDeck from "react-bootstrap/CardDeck";
 import Image from "react-bootstrap/Image";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 export default function Skills() {
   return (
@@ -16,7 +13,7 @@ export default function Skills() {
         <CardColumns>
           {skills.map((skills) => {
             return (
-              <Card className="focus my-2">
+              <Card className="focus my-2" key={skills.title}>
                 <Card.Body>
                   <Card.Title className="text-center card-title">
                     {skills.title}
@@ -32,6 +29,7 @@ export default function Skills() {
                           className="text-dark text-decoration-none"
                           href={techItem.link}
                           target="_blank"
+                          rel="noreferrer noopener"
                         >
                           <Image
                             src={techItem.imgSrc}

@@ -181,45 +181,6 @@ nav ul li {
   text-transform: uppercase;
 }
 
-/* .skills .circle {
-  position: relative;
-  margin: 6px auto;
-  background: var(--primary-orange);
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-.skills .icon {
-  font-size: 22.4px;
-  color: var(--primary-white);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.skills .box {
-  height: 256px;
-  border-bottom: 5px solid var(--primary-orange);
-  padding: 10px;
-  margin-bottom: 30px;
-  background: var(--primary-white);
-  transition: 0.3s ease-in-out;
-}
-
-.skills .box:hover {
-  background: var(--primary-orange);
-  border-bottom: 5px solid var(--primary-dark);
-}
-
-.skills .box:hover .icon {
-  color: var(--primary-dark);
-}
-.skills .box:hover .circle {
-  background: var(--primary-white);
-} */
-
 .skills .focus {
   transition: transform 0.3s;
 }

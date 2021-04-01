@@ -13,7 +13,7 @@ function Projects() {
   //Portfolio
   const openPopupboxPortfolio = () => {
     const content = (
-      <>
+      <div>
         <img
           className="project-image-popupbox"
           src={portfolio}
@@ -40,7 +40,7 @@ function Projects() {
         >
           https://github.com/JunHoang/portfolio
         </a>
-      </>
+      </div>
     );
     PopupboxManager.open({ content });
   };
@@ -98,7 +98,7 @@ function Projects() {
   //Gallery
   const openPopupboxGallery = () => {
     const content = (
-      <>
+      <div>
         <img
           className="project-image-popupbox"
           src={photoGallery}
@@ -130,7 +130,7 @@ function Projects() {
         >
           https://github.com/JunHoang/Unsplash-Photo-Gallery
         </a>
-      </>
+      </div>
     );
     PopupboxManager.open({ content });
   };
@@ -170,8 +170,8 @@ function Projects() {
             <img
               className="projects-image"
               src={photoGallery}
-              alt="Photo Gallery Project..."
-            ></img>
+              alt="Gallery Project..."
+            />
             <div className="overflow"></div>
             <FontAwesomeIcon className="projects-icon" icon={faSearchPlus} />
           </div>
