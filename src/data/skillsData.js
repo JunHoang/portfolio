@@ -1,10 +1,10 @@
-import I_HTML from "../images/skills/html-icon.jpg";
+import I_HTML from "../images/skills/html-icon.png";
 import I_CSS3 from "../images/skills/css-icon.png";
 import I_BOOTSTRAP from "../images/skills/bootstrap-icon.png";
 import I_JAVASCRIPT from "../images/skills/javascript-icon.jpg";
 import I_TYPESCRIPT from "../images/skills/typescript-icon.png";
 import I_REACT from "../images/skills/reactjs-icon.png";
-import I_REACT_BOOTSTRAP from "../images/skills/react-bootstrap-icon.jpg";
+import I_REACT_BOOTSTRAP from "../images/skills/react-bootstrap-icon.png";
 import I_REACT_ROUTER from "../images/skills/react-router.png";
 import I_REDUX from "../images/skills/redux-icon.jpg";
 import I_SASS from "../images/skills/sass-icon.png";
@@ -20,6 +20,10 @@ import I_SQL from "../images/skills/sql-icon.png";
 import I_GIT from "../images/skills/git-icon.png";
 import I_NPM from "../images/skills/npm-icon.png";
 import I_YARN from "../images/skills/yarn-icon.jpg";
+import I_CCNA from "../images/skills/ccna-icon.jpg";
+import I_SECURITY from "../images/skills/ccna-security-icon.png";
+import I_AWS from "../images/skills/aws-icon.png";
+import I_IoT from "../images/skills/IoT-icon.png";
 
 export const skills = [
   {
@@ -134,6 +138,23 @@ export const skills = [
     ],
   },
   {
+    title: "Package Manager",
+    tech: [
+      {
+        link: "https://www.npmjs.com/",
+        imgAltText: "Npm",
+        imgSrc: I_NPM,
+        name: "NPM",
+      },
+      {
+        link: "https://yarnpkg.com/",
+        imgAltText: "Yarn",
+        imgSrc: I_YARN,
+        name: "Yarn",
+      },
+    ],
+  },
+  {
     title: "Database",
     tech: [
       {
@@ -167,36 +188,33 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Package Manager",
-    tech: [
-      {
-        link: "https://www.npmjs.com/",
-        imgAltText: "Npm",
-        imgSrc: I_NPM,
-        name: "NPM",
-      },
-      {
-        link: "https://yarnpkg.com/",
-        imgAltText: "Yarn",
-        imgSrc: I_YARN,
-        name: "Yarn",
-      },
-    ],
-  },
+
   {
     title: "Other Knowledge",
     tech: [
       {
-        name: "Networking - CCNA",
+        link: "https://en.wikipedia.org/wiki/CCNA",
+        imgAltText: "CCNA",
+        imgSrc: I_CCNA,
+        name: "Networking",
       },
       {
-        name: "Networking Security",
+        link:
+          "https://www.cisco.com/c/dam/en_us/training-events/netacad/course_catalog/docs/CCNAsecurity_DS.pdf",
+        imgAltText: "CCNA Security",
+        imgSrc: I_SECURITY,
+        name: "CCNA Security",
       },
       {
+        link: "https://en.wikipedia.org/wiki/Amazon_Web_Services",
+        imgAltText: "AWS",
+        imgSrc: I_AWS,
         name: "Beginer of AWS",
       },
       {
+        link: "https://en.wikipedia.org/wiki/Internet_of_things",
+        imgAltText: "IoT",
+        imgSrc: I_IoT,
         name: "Basic of IoT",
       },
     ],
