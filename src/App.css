@@ -187,6 +187,7 @@ nav ul li {
 
 .skills .focus:hover {
   transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .skills .item:hover {
@@ -316,11 +317,17 @@ nav ul li {
 .projects-image {
   width: 348px;
   border: 1px solid var(--primary-orange);
+  transition: transform 0.7s;
 }
 
 .projects-image-box {
   position: relative;
   margin: 16px;
+}
+
+.projects-image-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /***************** OVERFLOW BOX *******************/
@@ -335,10 +342,10 @@ nav ul li {
   cursor: pointer;
 }
 
-.projects-image-box:hover .overflow {
+/* .projects-image-box:hover .overflow {
   opacity: 60%;
   transition: 0.3s ease-in-out;
-}
+} */
 
 .projects-icon {
   position: absolute;
@@ -350,11 +357,11 @@ nav ul li {
   font-size: 24px;
 }
 
-.projects-image-box:hover .projects-icon {
+/* .projects-image-box:hover .projects-icon {
   opacity: 90%;
   transform: scale(2);
   cursor: pointer;
-}
+} */
 
 /******************** POPUP BOX ***********************/
 .project-image-popupbox {
