@@ -15,10 +15,7 @@ export default function Header() {
             backSpeed={60}
             loop
           />
-          {/* <a href="#" className="btn-main-offer">
-          Contact me
-        </a> */}
-          <button className="btn btn-outline-danger text-uppercase text-white mt-3 font-weight-bold">
+          <button className="btn btn-outline-danger text-uppercase text-white mt-3 font-weight-bold mt-5">
             <Link
               smooth={true}
               to="contacts"
