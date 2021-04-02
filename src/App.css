@@ -97,14 +97,14 @@ nav ul li {
 }
 
 .main-info h1 {
-  font-weight: 800;
+  font-weight: 700;
   color: var(--primary-orange);
   text-transform: uppercase;
 }
 
 /**********TYPED TEXT***********/
 .typed-text {
-  font-weight: 800;
+  font-weight: 500;
   font-size: 32px;
   color: var(--primary-white);
 }

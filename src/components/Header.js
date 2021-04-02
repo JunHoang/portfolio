@@ -7,15 +7,20 @@ export default function Header() {
     <div id="home" className="dark-overlay">
       <div className="header-wraper">
         <div className="main-info">
-          <h1>web development and website promotions</h1>
+          <h1>Hi, I'm Dung Hoang!</h1>
           <Typed
             className="typed-text"
-            strings={["Hi!", "I'm Dung Hoang", "I'm a Front-end Developer"]}
+            strings={[
+              "An enthusiastic web developer",
+              "who loves clean code, ",
+              "and creates beautiful websites.",
+            ]}
             typeSpeed={40}
             backSpeed={60}
             loop
           />
-          <button className="btn btn-outline-danger text-uppercase text-white mt-3 font-weight-bold mt-5">
+
+          <button className="btn btn-outline-danger text-uppercase text-white mt-3 font-weight-bold">
             <Link
               smooth={true}
               to="contacts"
