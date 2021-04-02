@@ -8,8 +8,16 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="home">
-          <img className="logo" src={logo} alt="logo"></img>
+        <a className="navbar-brand">
+          <Link
+            smooth={true}
+            to="home"
+            offset={-80}
+            className="navbar-brand"
+            href="#"
+          >
+            <img className="logo" src={logo} alt="logo"></img>
+          </Link>
         </a>
         <button
           className="navbar-toggler"
@@ -31,7 +39,7 @@ function Navbar() {
                 to="home"
                 offset={-80}
                 className="nav-link"
-                href="#"
+                href="home"
               >
                 Home <span className="sr-only">(current)</span>
               </Link>
@@ -42,7 +50,7 @@ function Navbar() {
                 to="about"
                 offset={-80}
                 className="nav-link"
-                href="home"
+                href="about"
               >
                 about me
               </Link>
