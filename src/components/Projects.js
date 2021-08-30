@@ -42,13 +42,17 @@ function Projects() {
         </a>
       </div>
     );
-    PopupboxManager.open({ content });
-  };
-
-  const popupboxConfigPortfolio = {
-    titleBar: { enable: true, text: "Portfolio Project" },
-    fadeIn: true,
-    fadeInSpeed: 500,
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: "Portfolio Project",
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+      },
+    });
   };
 
   //HungryReact
@@ -86,13 +90,17 @@ function Projects() {
         </a>
       </div>
     );
-    PopupboxManager.open({ content });
-  };
-
-  const popupboxConfigHungryReact = {
-    titleBar: { enable: true, text: "Hungry React Restaurant App Project" },
-    fadeIn: true,
-    fadeInSpeed: 500,
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: "Hungry React Restaurant App Project",
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+      },
+    });
   };
 
   //Gallery
@@ -146,6 +154,7 @@ function Projects() {
       <div className="container">
         <h1 className="text-uppercase text-center py-5">Projects</h1>
         <div className="image-box-wrapper row justify-content-center">
+          {/* - */}
           <div className="projects-image-box" onClick={openPopupboxPortfolio}>
             <img
               className="projects-image"
@@ -177,8 +186,6 @@ function Projects() {
           </div>
         </div>
       </div>
-      <PopupboxContainer {...popupboxConfigPortfolio} />
-      <PopupboxContainer {...popupboxConfigHungryReact} />
       <PopupboxContainer {...popupboxConfigGallery} />
     </div>
   );
