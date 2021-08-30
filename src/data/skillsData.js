@@ -1,5 +1,6 @@
 import I_HTML from "../images/skills/html-icon.png";
 import I_CSS3 from "../images/skills/css-icon.png";
+import I_ACCESSIBILITY from "../images/skills/accessibility.jpg";
 import I_BOOTSTRAP from "../images/skills/bootstrap-icon.png";
 import I_JAVASCRIPT from "../images/skills/javascript-icon.jpg";
 import I_TYPESCRIPT from "../images/skills/typescript-icon.png";
@@ -24,6 +25,13 @@ import I_CCNA from "../images/skills/ccna-icon.jpg";
 import I_SECURITY from "../images/skills/ccna-security-icon.png";
 import I_AWS from "../images/skills/aws-icon.png";
 import I_IoT from "../images/skills/IoT-icon.png";
+import I_PostgreSQL from "../images/skills/postgresql.png";
+import I_Jest from "../images/skills/jest.png";
+import I_Bash from "../images/skills/bash.png";
+import I_Docker from "../images/skills/docker.png";
+import I_GithubActions from "../images/skills/githubActions.png";
+import I_Kubernetes from "../images/skills/kubernetes.png";
+import I_Azure from "../images/skills/azure.png";
 
 export const skills = [
   {
@@ -34,6 +42,12 @@ export const skills = [
         imgAltText: "HTML5",
         imgSrc: I_HTML,
         name: "HTML5",
+      },
+      {
+        link: "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility",
+        imgAltText: "Accessibility",
+        imgSrc: I_ACCESSIBILITY,
+        name: "ACCESSIBILITY",
       },
       {
         link: "https://www.w3schools.com/css/",
@@ -92,6 +106,23 @@ export const skills = [
     ],
   },
   {
+    title: "Package Manager",
+    tech: [
+      {
+        link: "https://www.npmjs.com/",
+        imgAltText: "Npm",
+        imgSrc: I_NPM,
+        name: "NPM",
+      },
+      {
+        link: "https://yarnpkg.com/",
+        imgAltText: "Yarn",
+        imgSrc: I_YARN,
+        name: "Yarn",
+      },
+    ],
+  },
+  {
     title: "Back-End",
     tech: [
       {
@@ -111,6 +142,103 @@ export const skills = [
         imgAltText: "RestAPI",
         imgSrc: I_RESTAPI,
         name: "RestAPI",
+      },
+    ],
+  },
+  {
+    title: "DevOps",
+    tech: [
+      {
+        link: "https://en.wikipedia.org/wiki/Bash_(Unix_shell)",
+        imgAltText: "Bash",
+        imgSrc: I_Bash,
+        name: "Bash",
+      },
+      {
+        link: "https://www.docker.com/",
+        imgAltText: "Docker",
+        imgSrc: I_Docker,
+        name: "Docker",
+      },
+      {
+        link: "https://github.com/features/actions",
+        imgAltText: "Github Actions",
+        imgSrc: I_GithubActions,
+        name: "Github Actions",
+      },
+      {
+        link: "https://kubernetes.io/",
+        imgAltText: "Kubernetes",
+        imgSrc: I_Kubernetes,
+        name: "Kubernetes",
+      },
+    ],
+  },
+  {
+    title: "Database",
+    tech: [
+      {
+        link: "https://www.mongodb.com/",
+        imgAltText: "MongoDB",
+        imgSrc: I_MONGODB,
+        name: "MongoDB",
+      },
+      {
+        link: "https://www.w3schools.com/sql/",
+        imgAltText: "SQL",
+        imgSrc: I_SQL,
+        name: "SQL",
+      },
+      {
+        link: "https://www.postgresql.org/",
+        imgAltText: "PostgreSQL",
+        imgSrc: I_PostgreSQL,
+        name: "POSTGRESQL",
+      },
+      {
+        link: "https://firebase.google.com/",
+        imgAltText: "Firebase",
+        imgSrc: I_FIREBASE,
+        name: "Firebase",
+      },
+    ],
+  },
+  {
+    title: "Cloud Services",
+    tech: [
+      {
+        link: "https://aws.amazon.com/",
+        imgAltText: "AWS",
+        imgSrc: I_AWS,
+        name: "AWS",
+      },
+      {
+        link: "https://azure.microsoft.com/en-us/",
+        imgAltText: "Microsoft Azure",
+        imgSrc: I_Azure,
+        name: " Microsoft Azure",
+      },
+    ],
+  },
+  {
+    title: "Testing",
+    tech: [
+      {
+        link: "https://jestjs.io/",
+        imgAltText: "Jest",
+        imgSrc: I_Jest,
+        name: "Jest",
+      },
+    ],
+  },
+  {
+    title: "Version Control",
+    tech: [
+      {
+        link: "https://git-scm.com/",
+        imgAltText: "Git",
+        imgSrc: I_GIT,
+        name: "Git",
       },
     ],
   },
@@ -138,58 +266,6 @@ export const skills = [
     ],
   },
   {
-    title: "Database",
-    tech: [
-      {
-        link: "https://www.mongodb.com/",
-        imgAltText: "MongoDB",
-        imgSrc: I_MONGODB,
-        name: "MongoDB",
-      },
-      {
-        link: "https://www.w3schools.com/sql/",
-        imgAltText: "SQL",
-        imgSrc: I_SQL,
-        name: "SQL",
-      },
-      {
-        link: "https://firebase.google.com/",
-        imgAltText: "Firebase",
-        imgSrc: I_FIREBASE,
-        name: "Firebase",
-      },
-    ],
-  },
-  {
-    title: "Package Manager",
-    tech: [
-      {
-        link: "https://www.npmjs.com/",
-        imgAltText: "Npm",
-        imgSrc: I_NPM,
-        name: "NPM",
-      },
-      {
-        link: "https://yarnpkg.com/",
-        imgAltText: "Yarn",
-        imgSrc: I_YARN,
-        name: "Yarn",
-      },
-    ],
-  },
-  {
-    title: "Version Control",
-    tech: [
-      {
-        link: "https://git-scm.com/",
-        imgAltText: "Git",
-        imgSrc: I_GIT,
-        name: "Git",
-      },
-    ],
-  },
-
-  {
     title: "Other Knowledge",
     tech: [
       {
@@ -199,23 +275,10 @@ export const skills = [
         name: "Networking",
       },
       {
-        link:
-          "https://www.cisco.com/c/dam/en_us/training-events/netacad/course_catalog/docs/CCNAsecurity_DS.pdf",
+        link: "https://www.cisco.com/c/dam/en_us/training-events/netacad/course_catalog/docs/CCNAsecurity_DS.pdf",
         imgAltText: "CCNA Security",
         imgSrc: I_SECURITY,
         name: "CCNA Security",
-      },
-      {
-        link: "https://en.wikipedia.org/wiki/Amazon_Web_Services",
-        imgAltText: "AWS",
-        imgSrc: I_AWS,
-        name: "Beginer of AWS",
-      },
-      {
-        link: "https://en.wikipedia.org/wiki/Internet_of_things",
-        imgAltText: "IoT",
-        imgSrc: I_IoT,
-        name: "Basic of IoT",
       },
     ],
   },
