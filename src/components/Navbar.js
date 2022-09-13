@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand">
+        <span className="navbar-brand">
           <Link
             smooth={true}
             to="home"
@@ -18,7 +18,7 @@ function Navbar() {
           >
             <img className="logo" src={logo} alt="logo"></img>
           </Link>
-        </a>
+        </span>
         <button
           className="navbar-toggler"
           type="button"

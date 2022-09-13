@@ -8,18 +8,25 @@ export default function Experience() {
       </div>
       <div className="container experience-wrapper">
         {/* - */}
-        <div className="container experience-wrapper">
-          <div className="timeline-block timeline-block-right">
-            <div className="marker"></div>
-            <div className="timeline-content">
-              <h3>May 2021 - Now</h3>
-              <h2>INTEGRIFY HELSINKI</h2>
-              <p>Full Stack Developer</p>
-            </div>
+        <div className="timeline-block timeline-block-right">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>December 2021 - Now</h3>
+            <h2>Navigil Oy</h2>
+            <p>Junior Software Developer</p>
           </div>
         </div>
         {/* - */}
         <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>May 2021 - Now</h3>
+            <h2>INTEGRIFY HELSINKI</h2>
+            <p>Full Stack Developer</p>
+          </div>
+        </div>
+        {/* - */}
+        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>Novermber 2020</h3>
@@ -33,10 +40,10 @@ export default function Experience() {
         </div>
         {/* - */}
 
-        <div className="timeline-block timeline-block-right">
+        <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>August 2018 - Now</h3>
+            <h3>August 2018 - June 2022</h3>
             <h2>SOUTH-EASTERN FINLAND UNIVERSITY OF APPLIED SCIENCE - XAMK</h2>
             <p>Bachelor of Engineering, Information Technology</p>
           </div>

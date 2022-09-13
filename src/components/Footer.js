@@ -14,13 +14,15 @@ export default function Footer() {
         <div className="row">
           <div className="col-lg-4 col-md-5 col-sm-12 justify-content-center">
             <div className="d-flex">
-              <p>Martinlaksoo, 01620, Vantaa</p>
+              <p>Helsinki, 00240, Finland</p>
             </div>
             <div className="d-flex">
               <a href="tel:0465712157">+358 465 712 157</a>
             </div>
             <div className="d-flex">
-              <a href="mailto:kathymaidung@gmail.com">kathymaidung@gmail.com</a>
+              <a href="mailto:dunghoang.lhp@gmail.com">
+                dunghoang.lhp@gmail.com
+              </a>
             </div>
           </div>
           <div className="col-lg-3 col-md-2 col-sm-12">

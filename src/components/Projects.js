@@ -24,22 +24,22 @@ function Projects() {
           is also the website you are accessing. Thanks for visiting.
         </p>
         <b className="pl-2">Website Link: </b>
-        <a
+        <span
           className="hyper-link"
           onClick={() =>
             window.open("https://dunghoang-portfolio.netlify.app/")
           }
         >
           https://dunghoang-portfolio.netlify.app/
-        </a>
+        </span>
         <br />
         <b className="pl-2">Source code: </b>
-        <a
+        <span
           className="hyper-link"
           onClick={() => window.open("https://github.com/JunHoang/portfolio")}
         >
           https://github.com/JunHoang/portfolio
-        </a>
+        </span>
       </div>
     );
     PopupboxManager.open({
@@ -58,7 +58,7 @@ function Projects() {
   //HungryReact
   const openPopupboxHungryReact = () => {
     const content = (
-      <div width="960px">
+      <div>
         <img
           className="project-image-popupbox"
           src={hungryReact}
@@ -72,22 +72,22 @@ function Projects() {
           on dishes easily.
         </p>
         <b className="pl-2">Website Link: </b>
-        <a
+        <span
           className="hyper-link"
           onClick={() => window.open("https://hungry-react.netlify.app/")}
         >
           https://hungry-react.netlify.app/
-        </a>
+        </span>
         <br />
         <b className="pl-2">Source code: </b>
-        <a
+        <span
           className="hyper-link"
           onClick={() =>
             window.open("https://github.com/JunHoang/Hungry-React")
           }
         >
           https://github.com/JunHoang/Hungry-React
-        </a>
+        </span>
       </div>
     );
     PopupboxManager.open({
@@ -110,7 +110,7 @@ function Projects() {
         <img
           className="project-image-popupbox"
           src={photoGallery}
-          alt="Photo Gallery Projects..."
+          alt="Gallery Projects..."
         />
         <p className="pl-2 pt-3">
           Unsplash-Photo-Gallery shows the images and predicts what is in that
@@ -120,24 +120,24 @@ function Projects() {
           authentication.
         </p>
         <b className="pl-2">Website Link: </b>
-        <a
+        <span
           className="hyper-link"
           onClick={() =>
             window.open("https://unsplash-photo-gallery-react.netlify.app/")
           }
         >
           https://unsplash-photo-gallery-react.netlify.app/
-        </a>
+        </span>
         <br />
         <b className="pl-2">Source code: </b>
-        <a
+        <span
           className="hyper-link"
           onClick={() =>
             window.open("https://github.com/JunHoang/Unsplash-Photo-Gallery")
           }
         >
           https://github.com/JunHoang/Unsplash-Photo-Gallery
-        </a>
+        </span>
       </div>
     );
     PopupboxManager.open({ content });
@@ -160,6 +160,7 @@ function Projects() {
               className="projects-image"
               src={portfolio}
               alt="Portfolio Project..."
+              height={218}
             ></img>
             <div className="overflow"></div>
             <FontAwesomeIcon className="projects-icon" icon={faSearchPlus} />

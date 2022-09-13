@@ -7,6 +7,7 @@ import I_TYPESCRIPT from "../images/skills/typescript-icon.png";
 import I_REACT from "../images/skills/reactjs-icon.png";
 import I_REACT_BOOTSTRAP from "../images/skills/react-bootstrap-icon.png";
 import I_REACT_ROUTER from "../images/skills/react-router.png";
+import I_REACT_NATIVE from "../images/skills/react-native.png";
 import I_REDUX from "../images/skills/redux-icon.jpg";
 import I_SASS from "../images/skills/sass-icon.png";
 import I_NODEJS from "../images/skills/nodejs-icon.png";
@@ -24,9 +25,7 @@ import I_YARN from "../images/skills/yarn-icon.jpg";
 import I_CCNA from "../images/skills/ccna-icon.jpg";
 import I_SECURITY from "../images/skills/ccna-security-icon.png";
 import I_AWS from "../images/skills/aws-icon.png";
-import I_IoT from "../images/skills/IoT-icon.png";
 import I_PostgreSQL from "../images/skills/postgresql.png";
-import I_Jest from "../images/skills/jest.png";
 import I_Bash from "../images/skills/bash.png";
 import I_Docker from "../images/skills/docker.png";
 import I_GithubActions from "../images/skills/githubActions.png";
@@ -221,13 +220,13 @@ export const skills = [
     ],
   },
   {
-    title: "Testing",
+    title: "Mobile",
     tech: [
       {
-        link: "https://jestjs.io/",
-        imgAltText: "Jest",
-        imgSrc: I_Jest,
-        name: "Jest",
+        link: "https://reactnative.dev/",
+        imgAltText: "React Native",
+        imgSrc: I_REACT_NATIVE,
+        name: "React Native",
       },
     ],
   },
