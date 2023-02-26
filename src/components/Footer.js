@@ -17,7 +17,7 @@ export default function Footer() {
               <p>Helsinki, 00240, Finland</p>
             </div>
             <div className="d-flex">
-              <a href="tel:0465712157">+358 465 712 157</a>
+              <a href="tel:0465712157">+358 449 836 498</a>
             </div>
             <div className="d-flex">
               <a href="mailto:dunghoang.lhp@gmail.com">
