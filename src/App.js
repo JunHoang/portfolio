@@ -10,14 +10,15 @@ import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
-import Particles from "react-particles-js";
-import { ParticlesParams } from "./ParticlesParams";
+// import Particles from "react-particles-js";
+// import { ParticlesParams } from "./ParticlesParams";
 
 function App() {
+
   return (
     <>
       <Navbar />
-      <Particles className="particles-canvas" params={ParticlesParams} />
+      {/* <Particles className="particles-canvas" params={ParticlesParams} /> */}
       <Header />
 
       <AboutMe />
