@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="row">
           <div className="col-lg-4 col-md-5 col-sm-12 justify-content-center">
             <div className="d-flex">
-              <p>Helsinki, 00240, Finland</p>
+              <p>Espoo, 02600, Finland</p>
             </div>
             <div className="d-flex">
               <a href="tel:0465712157">+358 449 836 498</a>
@@ -58,7 +58,7 @@ export default function Footer() {
               </a>
               <a
                 className="px-2"
-                href="https://www.facebook.com/DungDung.9498/"
+                href="https://www.facebook.com/JunHoang.9498/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -70,7 +70,7 @@ export default function Footer() {
               </a>
               <a
                 className="px-2"
-                href="https://www.instagram.com/hnmd_9498/"
+                href="https://www.instagram.com/_jun_hoang_/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
