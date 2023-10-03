@@ -70,7 +70,7 @@ export default function Footer() {
               </a>
               <a
                 className="px-2"
-                href="https://www.instagram.com/_jun_hoang_/"
+                href="https://www.instagram.com/hnmd98/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
